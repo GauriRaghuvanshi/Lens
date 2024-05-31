@@ -1,0 +1,53 @@
+.clients-row {
+  overflow: hidden;
+}
+
+.client-col {
+  display: inline-block;
+  animation: moveLeftRight 3s linear infinite; /* Adjust timing and animation as needed */
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.explore-button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  text-decoration: none;
+  justify-items: center;
+  transition: all 0.3s ease;
+}
+
+.explore-button:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.explore-button:hover i {
+  margin-left: 5px;
+}
+
+.explore-button i {
+  margin-left: 10px;
+  transition: margin-left 0.3s ease;
+}
+.arrow-right {
+  position: absolute;
+  right: 10px;
+  display: none;
+}
+
+.explore-button:hover .arrow-right {
+  display: inline;
+}
+.explore-button:hover i {
+  color: white;
+}

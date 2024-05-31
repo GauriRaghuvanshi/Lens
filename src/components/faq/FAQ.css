@@ -1,0 +1,61 @@
+.accordion-button.custom-arrow::after {
+  content: '';
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 0.12em solid;
+  border-bottom: 0.12em solid;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%) rotate(45deg);
+}
+.accordion-button.custom-arrow[aria-expanded="true"]::after {
+  transform: rotate(0deg);
+}
+
+/* FAQ.css */
+.card {
+  border: none;
+  height: auto; /* Adjust the height of the Card */
+}
+
+.card-header {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0.5rem 1rem; /* Reduce top and bottom padding */
+}
+
+.card-body {
+  padding: 0.5rem 1rem; /* Reduce top and bottom padding */
+}
+
+.faq-title {
+  font-size: 60px; /* or any desired font size */
+}
+
+/* FAQ.css */
+
+.NewQuestions_underline__PkZOO {
+    background-image: linear-gradient(to right, 
+      #004d99,
+      #0055a6,
+      #005eb3,
+      #0067bf,
+      #0070cc,
+      #0079d9,
+      #0082e6,
+      #008bf2,
+      #0094ff,
+      #009dff
+    ); /* Adjust the color stops as needed */
+    height: 3.2px; /* Adjust the height of the underline */
+    width: 100px; /* Adjust the width to match the text */
+    margin: auto; /* Center the underline */
+    margin-top: 5px; /* Adjust the top margin as needed */
+    border-radius: 1.5px;
+  }
+
+
+  

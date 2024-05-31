@@ -1,0 +1,63 @@
+
+/* Container margin and padding adjustments */
+.container.my-4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Title and section headings styling */
+  h4.text-center.my-4 {
+    margin-top: 100px;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Image styling to ensure they are centered and responsive */
+  .vision-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Adjustments for the row containing images and text */
+  .align-items-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add some space between the sections */
+  .my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .NewQuestions_underline__PkZOO {
+    background-image: linear-gradient(to right, 
+      #004d99,
+      #0055a6,
+      #005eb3,
+      #0067bf,
+      #0070cc,
+      #0079d9,
+      #0082e6,
+      #008bf2,
+      #0094ff,
+      #009dff
+    ); /* Adjust the color stops as needed */
+    height: 3.2px; /* Adjust the height of the underline */
+    width: 40px; /* Adjust the width to match the text */
+    margin: auto; /* Center the underline */
+    margin-top: 5px; /* Adjust the top margin as needed */
+    border-radius: 1.5px;
+  }
